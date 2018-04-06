@@ -1,8 +1,10 @@
 /// <reference path="program.ts"/>
 /// <reference path="watch.ts"/>
 /// <reference path="commandLineParser.ts"/>
-//// <reference path="plugin.ts"/>
+/** modification starts here */
+/// <reference path="plugin.ts"/>
 /// <reference path="pluginutils.d.ts"/>
+/** modification ends here */
 
 namespace ts {
     interface Statistic {
@@ -140,10 +142,12 @@ namespace ts {
         }
     }
     declare const require: (file: string)=>any;
-    /** modified here */
+    
     function performCompilation(rootFileNames: string[], compilerOptions: CompilerOptions) {
+        /** modification starts here */
         // integrate the plugins into the tsc
         runPlugins(rootFileNames, compilerOptions, createCompilerHost(compilerOptions));
+        /** modification ends here */
 
         const compilerHost = createCompilerHost(compilerOptions);
         enableStatistics(compilerOptions);
