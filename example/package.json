@@ -1,0 +1,14 @@
+{
+  "name": "tscp-example",
+  "version": "1.0.0",
+  "description": "an example showing how to use tscp",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/tscp/tscp.js "
+  },
+  "author": "errisy",
+  "license": "MIT",
+  "dependencies": {
+    "tscp": "^1.0.0"
+  }
+}

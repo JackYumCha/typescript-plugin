@@ -41,7 +41,6 @@ namespace ts {
         while (s.length < length) {
             s = s + " ";
         }
-
         return s;
     }
 

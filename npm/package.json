@@ -1,0 +1,24 @@
+{
+  "name": "tscp",
+  "version": "1.0.0",
+  "description": "a typescript compiler allows customized transpilations",
+  "main": "tscp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackYumCha/typescript-plugin.git"
+  },
+  "keywords": [
+    "typescript",
+    "compiler",
+    "plugin"
+  ],
+  "author": "errisy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JackYumCha/typescript-plugin/issues"
+  },
+  "homepage": "https://github.com/JackYumCha/typescript-plugin#readme"
+}

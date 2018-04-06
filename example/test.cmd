@@ -1,0 +1,1 @@
+npm run test files/demo.ts

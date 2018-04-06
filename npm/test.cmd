@@ -1,0 +1,1 @@
+node tsc-plugin files\demo.ts

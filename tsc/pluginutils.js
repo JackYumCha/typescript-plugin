@@ -1,6 +1,8 @@
 
 function loadPlugins() {
     var nodejsFS = require("fs");
+    // this will load plugin from CurrentDirectory, which is where the folder of current commandline.
+    // theoretically, that should be the package.json folder to find this plugin.json
     return JSON.parse(nodejsFS.readFileSync('./plugin.json', 'utf8').toString());
 }
 function runPlugins(rootFileNames, compilerOptions, pluginCompilerHost) {
